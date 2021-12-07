@@ -1,0 +1,63 @@
+.main_portfolio {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .middle a{
+    text-decoration: none;
+  }
+  
+  .main_portfolio:hover .image {
+    opacity: 0.3;
+  }
+  
+  .main_portfolio:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .img-hover-zoom {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    }
+   
+    /* [2] Transition property for smooth transformation of images */
+    .img-hover-zoom img {
+      max-width: 100%;
+      transition: all 0.3s;
+      display: block;
+      width: 100%;
+      height: auto;
+      transform: scale(1);
+    }
+   
+    /* [3] Finally, transforming the image when container gets hovered */
+    .img-hover-zoom:hover img {
+      transform: scale(1.1);
+    }
+  
