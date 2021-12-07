@@ -1,0 +1,30 @@
+
+label {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+  }
+  input,
+  textarea {
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    outline: 0;
+  }
+  input[type="submit"] {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    background-color: #2c3a47;
+    border: 2px solid white;
+    color: white;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #2c3a47 50%, #04AA6D 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-position: left;
+  }
+  textarea {
+    height: 20vh;
+  }
+  
