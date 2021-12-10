@@ -1,11 +1,11 @@
 import React from "react";
 import Typical from "react-typical";
-import portfolio from "../../../images/my_img.jpg";
+import portfolio from "../../../images/portfolio-img.png";
 import "./Header.css";
 
 function Header() {
   return (
-    <div className="container my-3">
+    <div className="container mt-5 mb-3">
       {/* <div className="text-center my_ripple my-5">
       <img
           style={{ width: "15%" }}

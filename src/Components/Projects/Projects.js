@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css";
-import goldenwatch from "../../images/portfolio/goldenwatch.png";
+import goldenwatch from "../../images/portfolio/super_bike_2.png";
 import bluesky from "../../images/portfolio/bluesky.PNG";
 import neurondental from "../../images/portfolio/neurondental.PNG";
 import hondabike from "../../images/portfolio/hondabike.png";
-import infinityit from "../../images/portfolio/infinityit.png";
-import luxuryfashion from "../../images/portfolio/luxuryfashion.png";
+import infinityit from "../../images/portfolio/coding_ninja.png";
+import luxuryfashion from "../../images/portfolio/yash_raj.png";
 
 function Projects() {
   return (
@@ -22,8 +22,8 @@ function Projects() {
             />
 
             <div class="middle">
-              <h4>Golden Watch</h4>
-              <a href="https://golden-watch.web.app/" target="_blank">
+              <h4>Super Bike</h4>
+              <a href="https://super-bike-9aaee.web.app/" target="_blank">
                 <div class="text">Live Demo</div>
               </a>
             </div>
@@ -38,8 +38,8 @@ function Projects() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-            <h4>BlueSky Tour Hub</h4>
-              <a href="https://bluesky-tour-hub.web.app/" target="_blank">
+            <h4>Bangladesh Travel</h4>
+              <a href="https://bangladesh-travel.web.app/home" target="_blank">
                 <div class="text">Live Demo</div>
               </a>
             </div>
@@ -54,8 +54,8 @@ function Projects() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Neuron Dental Care</h4>
-              <a href="https://neuron-dental-care.web.app/" target={"_blank"}>
+                <h4>Apollo Health Care</h4>
+              <a href="https://apollo-health-care-a3b2a.web.app/home" target={"_blank"}>
                 <div class="text">Live Demo</div>
               </a>
             </div>
@@ -64,15 +64,15 @@ function Projects() {
         <div className="col-md-4">
           <div class="main_portfolio  img-hover-zoom">
             <img
-              src={hondabike}
+              src={infinityit}
               alt="Avatar"
               class="image"
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Honda CBR</h4>
+                <h4>Coding Ninja</h4>
               <a
-                href="https://ruhulamin96.github.io/Honda-bike-website/index.html"
+                href="https://jolly-goldstine-b68a21.netlify.app/"
                 target={"_blank"}
               >
                 <div class="text">Live Demo</div>
@@ -89,8 +89,8 @@ function Projects() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Luxury Fashion</h4>
-              <a href="https://luxury-fashion.netlify.app/" target={"_blank"}>
+                <h4>Yash Raj Films</h4>
+              <a href="https://elastic-murdock-52d214.netlify.app/" target={"_blank"}>
                 <div class="text">Live Demo</div>
               </a>
             </div>
@@ -99,15 +99,15 @@ function Projects() {
         <div className="col-md-4">
           <div class="main_portfolio  img-hover-zoom">
             <img
-              src={infinityit}
+              src={hondabike}
               alt="Avatar"
               class="image"
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Infinity IT Solution</h4>
+                <h4>Honda CBR</h4>
               <a
-                href="https://infinity-institute.netlify.app/"
+                href="https://soubirsaian.github.io/my-honda-cbr/"
                 target={"_blank"}
               >
                 <div class="text">Live Demo</div>

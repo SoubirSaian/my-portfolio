@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link as  a } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Navigation.css';
 
 const Navigation = () => {
@@ -7,9 +7,9 @@ const Navigation = () => {
         <div className="container " id="top">
         <nav class="navbar navbar-expand-lg ">
           <div class="container  fixed-top">
-            < a class="navbar-brand" href="#">
+            <Link class="navbar-brand" to="#">
                 Soubir Saian
-            </ a>
+            </Link>
             <button
               class="navbar-toggler text-white"
               type="button"
@@ -29,31 +29,31 @@ const Navigation = () => {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  < a
+                  <a
                     class="nav-link active bottom-border"
                     aria-current="page"
                     href="#top"
                   >
                     Home
-                  </ a>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  < a
+                  <a
                     class="nav-link active bottom-border "
                     aria-current="page"
                     href="#aboutme"
                   >
                     Skills
-                  </ a>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  < a
+                  <a
                     class="nav-link active bottom-border "
                     aria-current="page"
                     href="#portfolio"
                   >
                     Portfolio
-                  </ a>
+                  </a>
                 </li>
                 {/* <li class="nav-item">
                   <a
@@ -65,20 +65,20 @@ const Navigation = () => {
                   </a>
                 </li> */}
                 <li class="nav-item">
-                  < a
+                  <a
                     class="nav-link active bottom-border"
                     aria-current="page"
                     href="#contact"
                   >
                     Contact
-                  </ a>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
         <button className="resume">
-          <i class="fas fa-download"></i> Resume
+          <a href="https://drive.google.com/file/d/1h-ROYk8Xj0BF_h46OEe1xXoH_VQP8qok/view?usp=sharing" target="_blank"><i class="fas fa-download"></i> Resume</a>
         </button>
       </div>
     );

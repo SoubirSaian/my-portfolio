@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
+
 function Contact() {
   const form = useRef();
   const nameRef= useRef()
@@ -11,10 +12,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_jef7r17",
-        "template_mcabve5",
-        form.current,
-        "user_Sqjj63n3YsWA4RWrhqg4R"
+        "service_irtzksm",
+        "template_lhbvsok",
+        form.current, 
+        "user_9iC6IruVMPuB3IPI2dMAW"
       )
       .then(
         (result) => {
